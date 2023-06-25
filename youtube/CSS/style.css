@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    background: white;
+    color: black;
+    position: fixed;
+}
+.body{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 10px;
+}
+nav{
+    width: 200px;
+    height: 150vh;
+    background: #dadad9;
+    box-sizing: border-box;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+.scroll{
+    overflow-y: scroll;
+    height: 100vh;
+}
+nav::-webkit-scrollbar{
+    width: 10px;
+}
+nav::-webkit-scrollbar-track{
+    background: #dadad9
+}
+nav::-webkit-scrollbar-thumb{
+    background-color: #ede6e3;
+    border-radius: 50px;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+div {
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+div > div > h4,div{
+    margin-bottom: 10px;
+}
+div > div,hr{
+    margin-bottom: 10px;
+}
+.Présentation > p,a{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.Présentation a{
+    margin-bottom: 10px;
+    display: block;
+}
+img{
+    width: 20px;
+}
+img,a{
+    margin-left: 8px;
+}
+sup{
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Hamburger{
+    position: fixed;
+}
+.Hamburger,.Youtube{
+    display: flex;
+    margin-top: 5px;
+}
+.Hamburger > label{
+    height: 20px;
+    position: relative;
+    top: 8px;
+    cursor: pointer;
+}
+.grand{
+    position: relative;
+    top: 50px;
+}
+#check{
+    display: none;
+}
+/**********************************------HEADER--------*************************/
+
+.compte{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+}
+header{
+    width: 100%;
+    height: 10vh;
+    background: #dadad9;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.cal-not{
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+}
+.cal-not img{
+    width: 30px;
+    height: 30px;
+}
+.cal-not img:hover{
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.3;
+}
+.chercher{
+    width: 600px;
+    height: 30px;
+    position: relative;
+    right: 50px;
+    display: flex;
+    flex-direction: row;
+}
+#chercher{
+    width: 500px;
+    height: 30px;
+    background: black;
+    border-radius: 5% 0 20% 5%/50% 0 0 50% ;
+    position: relative;
+    left: 10px;
+    text-align: center;
+}
+.icone-cherher img{
+    width: 50px;
+    height: 30px;
+    background: white;
+    border-radius: 0 30% 30% 0/0 40% 40% ;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+}
+.microphone img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 150px;
+    cursor: pointer;
+}
+.microphone img:hover{
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    opacity: 0.3;
+}
+/*-------------------------------------------------------------SECTION-------------------------------------------------------*/
+section{
+    width: 100%;
+    height: 150vh;
+    background: #dadad9;
+    display: inline;
+}
+.tout-video{
+    overflow-y: scroll;
+    height: 100vh;
+}
+section::-webkit-scrollbar{
+    width: 10px;
+}
+section::-webkit-scrollbar-track{
+    background: #dadad9
+}
+section::-webkit-scrollbar-thumb{
+    background-color: #ede6e3;
+    border-radius: 50px;
+}
+.video1,.video2,.video3,.video4,.video5,.video6{
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.tout-video{
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.banner{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    right: 8px;
+    border-radius: 20px;
+}
+.banner:hover{
+    border-radius: 0;
+    transition: 0.5s;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+}
+.comptes{
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    right: 13px;
+}
